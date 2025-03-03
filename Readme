@@ -1,0 +1,78 @@
+# IPL Data Analysis (2008-2024)
+
+## 📌 Project Overview
+This project analyzes **Indian Premier League (IPL) matches from 2008 to 2024** using **Python (Pandas, Matplotlib, Seaborn)**. The dataset includes match details, player performances, and team statistics. The goal is to extract insights such as:
+- **Top-performing teams and players** over the years
+- **Win percentage of teams**
+- **Player of the Tournament** based on Player of the Match awards
+- **Scoring trends (first innings vs second innings)**
+- **Head-to-head comparisons between teams**
+
+## 📂 Dataset Details
+**File Name:** `IPL_Dataset(2008-2024).csv`
+
+### **Columns in the Dataset:**
+- **match_id** - Unique identifier for each match
+- **date** - Date of the match
+- **teams** - Teams that played the match
+- **venue** - Stadium where the match was played
+- **toss_winner** - Team that won the toss
+- **toss_decision** - Decision after winning the toss (batting/bowling)
+- **first_innings_score** - Runs scored in the first innings
+- **second_innings_score** - Runs scored in the second innings
+- **winner** - Team that won the match
+- **player_of_match** - Player who won the Man of the Match award
+- **year** - Year of the match
+
+## 📊 Key Analysis & Insights
+### 1️⃣ **Team Performance Analysis**
+- **Total matches played** by each team
+- **Win percentage** of each team
+- **Head-to-head comparison** between teams
+
+### 2️⃣ **Player Performance Analysis**
+- **Most Player of the Match awards** per year
+- **Player of the Tournament** (Based on most awards in a year)
+
+### 3️⃣ **Scoring Analysis**
+- **Average first innings vs second innings scores**
+- **Run rate trends across seasons**
+- **Impact of toss decision on match outcome**
+
+### 4️⃣ **Match Outcome Analysis**
+- **Which venues favor batting first vs chasing?**
+- **Effect of toss decision on winning probability**
+- **Highest and lowest scoring matches**
+
+## 📌 How to Use This Project
+### **1️⃣ Clone the Repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/IPL-Data-Analysis.git
+cd IPL-Data-Analysis
+```
+
+### **2️⃣ Install Dependencies**
+Ensure you have **Jupyter Notebook**, **Pandas**, **Matplotlib**, and **Seaborn** installed.
+```bash
+pip install pandas matplotlib seaborn jupyter
+```
+
+### **3️⃣ Run the Jupyter Notebook**
+```bash
+jupyter notebook
+```
+Open `IPL_Analysis.ipynb` and run the cells.
+
+## 📈 Visualization Examples
+Some of the visualizations included:
+- **Win Percentage of Teams (Bar Chart)**
+- **Player of the Tournament (Bar Chart with Player Names)**
+- **Scoring Trends Over the Years (Line Chart)**
+- **Team Head-to-Head Win Rates (Heatmap)**
+
+## 🚀 Future Improvements
+- Add **ball-by-ball analysis** for more insights
+- Include **Powerplay & Death Over analysis**
+- Predict **match outcomes using ML models**
+
+
